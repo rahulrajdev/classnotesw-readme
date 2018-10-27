@@ -1,0 +1,32 @@
+Coding notes
+CSS grid system in bootstrap
+
+Sketches
+  matching things to a grid
+  headers, sections are all tied together in space, and its all about how those things are tied together in space
+  be mindful of the grid
+  can get structure of the html by just visualing it in your head based on the sketches/grid
+  - grids serve to align elements aesthetically
+     - bootstrap uses grid of 12 columns across the screen 
+     - bases the size of the columns on the size of the screen 
+     - do not have to worry about exact amount of pixels, just out of 12 
+     - grids make it easy to have content (text, images, regions) align aesthetically 
+     - think about the grids before you design, can visualize it and then make it 
+     - if things are laid out on a grid, increases usability of website 
+     - tools for sketch/grid creation 
+      - slacked out 
+  - Rows and columns
+      - all containers that fit within the grid (rows and columns) 
+      - easiest way to start is containers in bootstrap 
+          - like a skeleton
+          
+ REVIEW - CSS positioning, 
+ 
+ Boostrap Grid
+    - lets you organize content based on the number of the columns a div spans out of total of 12 columns
+    <div class="col-md-12"> (spans full width)
+    <div class="col-md-4"> (spans 1/3 of the page)
+    - every bootstrap grid is made up of containers, rows, columns
+        - containers wrap around the entire grid
+        
+  
